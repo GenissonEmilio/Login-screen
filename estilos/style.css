@@ -1,0 +1,40 @@
+@charset 'UTF-8';
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  position: relative;
+  background-image: linear-gradient(to bottom, #5866FF, #7EEEF1);
+}
+
+main {
+  position: absolute;
+  width: 80vw;
+  background-color: white;
+  top: 50%;
+  left: 50%;
+  border-radius: 10px;
+  transform: translate(-50%,-50%);
+}
+
+article#fundo img {
+  display: block;
+  width: 100%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background: black no-repeat;
+  background-size: contain;
+}
+
+article::before {
+  background: url(imagens/back.jpg);
+}
