@@ -1,5 +1,10 @@
 @charset 'UTF-8';
 
+/*
+  Verde: #49a09d
+  Lilas: 5f2c82
+*/
+
 * {
   margin: 0px;
   padding: 0px;
@@ -9,20 +14,4 @@
 html, body {
   width: 100vw;
   height: 100vh;
-}
-
-body {
-  position: relative;
-  background-image: linear-gradient(to bottom, #5866FF, #7EEEF1);
-}
-
-main {
-  position: absolute;
-  width: 80vw;
-  background-color: white;
-  top: 50%;
-  left: 50%;
-  border-radius: 10px;
-  text-align: center;
-  transform: translate(-50%,-50%);
 }
