@@ -18,6 +18,23 @@
         <h1>Login</h1>
         <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente</p>
         <form action="login.js" method="post">
+          <div>
+            <label for="email">
+              <span id="man" class="material-symbols-outlined">person</span>
+            </label>
+            <input type="email" name="email" id="email" autocomplete="email" required>
+          </div>
+          
+          <div>
+            <label for="senha">
+              <span id="pass" class="material-symbols-outlined">password</span>
+            </label>
+            <input type="password" name="senha" id="senha" autocomplete="current-password" required>
+          </div>
+          
+          <div>
+            <input id="go" type="submit" value="Entrar">
+          </div>
           
         </form>
       </div>
