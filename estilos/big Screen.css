@@ -1,7 +1,7 @@
 @charset 'UTF-8';
 
 body {
-  background-image: linear-gradient(to top, #21FFF7, #5f2c82);
+  background-image: linear-gradient(to top, #5f2c82, #C8F5FF);
 }
 
 section#login {
