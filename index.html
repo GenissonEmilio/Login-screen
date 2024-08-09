@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="estilos/big Screen.css" media="screen and (min-width: 1025px)">
 </head>
 <body>
-  <main>
+  <main id="principal">
     <section id="login">
       <div id="imagem">
         
@@ -19,7 +19,7 @@
       <div id="formulario">
         <h1>Login</h1>
         <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
-        <form action="login.js" method="post" autocomplete="on">
+        <form id="formu" method="post" autocomplete="on">
           <div class="campo">
             <span class="material-symbols-outlined">person</span>
             <input type="email" name="email" id="email" placeholder="Seu e-mail" autocomplete="email" required maxlength="30">
@@ -30,13 +30,13 @@
             <input type="password" name="senha" id="senha" placeholder="Sua senha" autocomplete="current-password" required minlength="8" maxlength="16">
             <label for="senha">Senha</label>
           </div>
-          <input type="submit" value="Entrar">
+          <input id="entrar" type="submit" value="Entrar">
           <a class="botao" href="#">Esqueci a senha <span class="material-symbols-outlined">mail</span></a>
         </form>
       </div>
     </section>
   </main>
   
-  <script src="main.js"></script>
+  <!--<script src="main.js"></script>-->
 </body>
 </html>
